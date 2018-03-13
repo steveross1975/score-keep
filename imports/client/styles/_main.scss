@@ -1,0 +1,40 @@
+//Variables
+$gold: lighten(#CFB53B, 15%);
+$gold-alt: darken($gold, 15%);
+$silver: #E6E8FA;
+$silver-alt: darken($silver, 15%);
+$bronze: lighten(#8C7853, 15%);
+$bronze-alt: darken($bronze, 15%);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;/*resets all the text default size to 10px*/
+}
+
+body {
+  background-color: #f2f2f2;
+  color: #555555;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.6rem;
+}
+
+input, button, select {
+  font-size: 1.3rem;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 2.4rem;
+}
+
+
+@import './components/title-bar';
+@import './components/wrapper';
+@import './components/item';
+@import './components/button';
+@import './components/form';
+@import './components/player';
